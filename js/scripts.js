@@ -1,5 +1,5 @@
-$(document).ready(function () {
-  $("").click(function () {
+$(document).ready(function() {
+  $("").click(function() {
     var score = 0;
 
     var answer = [];
@@ -9,25 +9,25 @@ $(document).ready(function () {
     answer.push($("input:radio[nam=answer4]:checked").val());
     answer.push($("input:radio[nam=answer5]:checked").val());
     answer.push($("input:radio[nam=answer6]:checked").val());
-    $(#body1).hide(funtion(event){
+    $(#body1).hide(funtion(event) {
       $("display").html("Your final score is /5");
     })
-    if (answer[0]=="C") {
+    if (answer[0] == "C") {
       score++;
     }
-    if (answer[1]=="C") {
+    if (answer[1] == "C") {
       score++;
     }
-    if (answer[2]=="B") {
+    if (answer[2] == "B") {
       score++;
     }
-    if (answer[3]==) {
+    if (answer[3] == "C") {
       score++;
     }
-    if (answer[4]=="A"){
+    if (answer[4] == "A") {
       score++;
     }
-    if (answer[5]=="B"){
+    if (answer[5] == "B") {
       score++;
     }
   })
