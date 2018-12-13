@@ -12,22 +12,22 @@ $(document).ready(function () {
     $(#body1).hide(funtion(event){
       $("display").html("Your final score is /5");
     })
-    if (answer[0]==) {
+    if (answer[0]=="C") {
       score++;
     }
-    if (answer[1]==) {
+    if (answer[1]=="C") {
       score++;
     }
-    if (answer[2]==) {
+    if (answer[2]=="B") {
       score++;
     }
     if (answer[3]==) {
       score++;
     }
-    if (answer[4]==){
+    if (answer[4]=="A"){
       score++;
     }
-    if (answer[5]==){
+    if (answer[5]=="B"){
       score++;
     }
   })
