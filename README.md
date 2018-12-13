@@ -1,5 +1,5 @@
 # QUIZ BOARD FOR JAVASCRIPT.
-#### A QUICK QUIZ TO TEST YOUR JAVASCRIPT SKILLS!, 12/12/2018.
+#### A QUICK QUIZ TO TEST YOUR JAVASCRIPT SKILLS! 12/12/2018.
 #### By **Carey Francis Ojall.**
 ## Description
 This quiz was made to know how good you are in JavaScript as a learner. There are 5 questions in total on the whole quiz. Each question has 4 choices and one of those choices is the answer. You are to choose one of those answers which you deem correct by clicking on it. After you are done with the test, click the SUBMIT button to show how you have fared in the test itself. Your score will be out of 5.
@@ -22,7 +22,7 @@ The application uses a combination of HTML, CSS and JavaScript to achieve its ob
 In addition to those languages, libraries were used in CSS and JavaScript which respectively are bootstrap and jQuery.
 Atom was the text editor used to put all the lines of code together for execution.
 
-##Behaviour Driven Development (BDD)
+## Behaviour Driven Development (BDD)
 In regards to the quiz, the BDD involved had to take into account the following:
 All the questions with multiple can only have one answer.
 Validation of all the marks scored wrong should have a value of zero.
