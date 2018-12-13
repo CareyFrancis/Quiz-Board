@@ -9,3 +9,8 @@ body{
 .p3{
   text-align: center;
 }
+#output{
+  font-size: 30px;
+  text-align: center;
+  font-family: sans-serif;
+}
