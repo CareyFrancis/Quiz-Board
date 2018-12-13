@@ -22,7 +22,7 @@ The application uses a combination of HTML, CSS and JavaScript to achieve its ob
 In addition to those languages, libraries were used in CSS and JavaScript which respectively are bootstrap and jQuery.
 Atom was the text editor used to put all the lines of code together for execution.
 
-##Behaviour Driven Development (BDD)
+## Behaviour Driven Development (BDD)
 In regards to the quiz, the BDD involved had to take into account the following:
 All the questions with multiple can only have one answer.
 Validation of all the marks scored wrong should have a value of zero.
