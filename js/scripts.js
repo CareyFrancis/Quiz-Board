@@ -9,7 +9,7 @@ $(document).ready(function() {
     answer.push($("input:radio[name=answer4]:checked").val());
     answer.push($("input:radio[name=answer5]:checked").val());
     answer.push($("input:radio[name=answer6]:checked").val());
-    $(#form).hide(funtion(event) {
+    $(#form).(funtion(event) {
       $("display").html("Your final score is" + answer);
     })
 
