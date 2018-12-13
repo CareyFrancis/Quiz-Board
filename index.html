@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <script>"js/scripts.js"</script>
-    <script   src="https://code.jquery.com/JQuery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <title>QUIZ BOARD FOR JAVASCRIPT.</title>
-  </head>
-  <body>
-    <div class="container">
+
+<head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="icon" href="images/img.jpg">
+  <title>QUIZ BOARD FOR JAVASCRIPT.</title>
+</head>
+
+<body>
+  <div class="container">
     <div class="jumbotron">
-      <h1>QUIZ BOARD.</h1>
-      <p class="">The following is a quiz to test your knowledge on JavaScript. Please choose the answer that you feel is the appropriate response to each question.<br>After doing so, click the submit button to submit your answers and reveal your test scores. Good Luck! You'll need it.</p>
+      <div class="well">
+        <h1>QUIZ BOARD.</h1>
+        <p class="">The following is a quiz to test your knowledge on JavaScript. Please choose the answer that you feel is the appropriate response to each question.<br>After doing so, click the submit button to submit your answers and reveal your
+          test scores. Good Luck! You'll need it.</p>
       </div>
-      <div class="jumbotron">
-        <h2> Answer each of the following questions. You many click on one answer per question.<br></h2>
+    </div>
+    <div class="jumbotron">
+      <div class="well">
+        <h2> Answer each of the following questions. You may click on only one answer per question.<br></h2>
         <h3>1. What year was JavaScript created? <br></h3>
         <input type="radio" name="answer1" value="1">1990 <br>
 
@@ -51,7 +56,7 @@
 
         <input type="radio" name="answer4" value="4">append()<br>
 
-        <h3>5. Which  of the following is <strong>NOT</strong> true?</h3>
+        <h3>5. Which of the following is <strong>NOT</strong> true?</h3>
         <input type="radio" name="answer5" value="1">JavaScript is a Markdown Language.<br>
 
         <input type="radio" name="answer5" value="2">HTML is a mark-up language.<br>
@@ -69,12 +74,21 @@
 
         <input type="radio" name="answer6" value="4">function{(})<br>
 
+        <br>
+        <p class="button">
+          <input type="button" name="button1" value="SUBMIT"><br>
+        </p>
 
-        <input type="button" name="button1" value="SUBMIT"><br>
-
-
-        <p><strong>BEST OF LUCK.!!:)</strong></p>
+        <br>
+        <p class="p3"><strong>BEST OF LUCK!:)</strong></p>
       </div>
     </div>
-  </body>
+  </div>
+  <script>
+    "js/scripts.js"
+  </script>
+  <script src="https://code.jquery.com/JQuery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+</body>
+
 </html>
